@@ -26,3 +26,17 @@ def calculate_portfolio_value(portfolio):
         current_price = data.get('currentPrice', 0)  
         total_value += quantity * current_price
     return total_value
+
+#THIS FUNCTION WILL DISPLAY THE SUMMARY OF THE PORTFOLIO (TOTAL VALUE AND NUMBER OF HOLDINGS)
+def display_portfolio_summary(portfolio):
+    """Displays a concise summary of the portfolio."""
+    clear_screen()
+    total_value = calculate_portfolio_value(portfolio)
+    if not portfolio:
+        print("Your portfolio is empty.")
+        return
+
+    print("\n--- Portfolio Summary ---")
+    print(f"Total Value: ${total_value:.2f}")
+    print(f"Number of Holdings: {len(portfolio)}")
+    print("-" * 20)
