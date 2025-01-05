@@ -40,3 +40,9 @@ def display_portfolio_summary(portfolio):
     print(f"Total Value: ${total_value:.2f}")
     print(f"Number of Holdings: {len(portfolio)}")
     print("-" * 20)
+
+#THIS FUNCTION WILL DISPLAY THE DETAILED PORTFOLIO
+def display_detailed_portfolio(portfolio):
+    """Displays the current stock portfolio with detailed information."""
+    display_portfolio_summary(portfolio)  
+
