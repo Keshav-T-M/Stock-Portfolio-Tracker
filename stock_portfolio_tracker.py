@@ -17,7 +17,7 @@ def get_stock_data(ticker):
         print(f"Error fetching data for {ticker}: {e}")
         return None
 
-#THIS FUNCTIO WILL CALCULATE THE TOTAL HOLDING PORTFOLIO VALUE AND RETURN IT
+#THIS FUNCTION WILL CALCULATE THE TOTAL HOLDING PORTFOLIO VALUE AND RETURN IT
 def calculate_portfolio_value(portfolio):
     """Calculates the total value of the portfolio."""
     total_value = 0
