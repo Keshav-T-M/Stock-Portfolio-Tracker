@@ -111,3 +111,15 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+# Example Stock Tickers 
+# AAPL 
+# GOOG 
+# AMZN 
+# TSLA
+# MSFT 
+# JPM 
+# FB 
+# BRK.A 
+# BAC
+# WMT 
